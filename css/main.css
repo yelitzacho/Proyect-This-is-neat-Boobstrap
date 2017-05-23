@@ -1,0 +1,86 @@
+@font-face{
+	font-family: "proxima-nova-soft";
+	font-style: normal;
+	src: url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+}
+*{
+	font-family: "proxima-nova-soft";
+}
+h1, h2, h3, h4, h5{
+	font-weight: bold;
+}
+
+/*===Information===*/
+
+@media (max-width: 768px) {
+
+	/*===Information===*/
+
+  .info-desktop-hide{
+  	display: block;
+  }
+  .text-info{
+  	text-align: center;
+  }
+  .info-desktop-show{
+  	display: none;
+  }
+
+  /*===Details===*/
+
+  .details-show{
+  	
+  }
+}
+@media (min-width: 769px) {
+  
+	/*===Information===*/
+
+  .info-desktop-hide{
+  	display: none;
+  }
+  .info-desktop-show{
+  	display: block;
+  }
+  h2{
+  	font-size: 40px;
+  }
+
+  /*===Details===*/
+
+  .accordion-hide{
+  	display: none;
+  }
+}
+
+.center-block{
+	margin-bottom: 6rem;
+}
+.icon{
+	position: absolute;
+    top: 3.4rem;
+    left: 4rem;
+}
+.icon-container{
+	background-color: #ffcc66;
+	height: 23rem;
+    width: 23rem;
+    border-radius: 23rem;
+    margin: 0 auto 20px;
+}
+.icon--step-bond-guarantee, .icon--step-quote, .icon--step-payment {
+	width: 16rem;
+	height: 15rem;
+}
+.color-text-info{
+	color: #3498DB;
+}
+.text-info{
+	line-height: 3rem;
+}
+.text-info p{
+	color: #494949;
+}
+
+/*===Details===*/
+
